@@ -27,7 +27,7 @@ export const HeroSection: React.FC = () => {
             alt="Contact icon"
             className="aspect-[1] object-contain w-10 shrink-0"
           />
-          <button className="self-stretch bg-[rgba(144,176,5,1)] gap-2.5 overflow-hidden px-7 py-2 rounded-[32px] hover:bg-[rgba(124,151,4,1)] transition-colors max-md:px-5">
+          <button className="self-stretch bg-[rgba(144,176,5,1)] gap-2.5 overflow-hidden px-7 py-2 rounded-[32px] hover:bg-[rgba(124,151,4,1)] transition-transform transform hover:scale-105 max-md:px-5">
             Contact
           </button>
         </div>
@@ -48,7 +48,7 @@ export const HeroSection: React.FC = () => {
         Punarjani Naturopathy Acupuncture Clinic
       </h1>
 
-      <div className="relative w-[741px] max-w-full ml-10 mt-[199px] max-md:mt-10">
+      <div className="relative w-[741px] max-w-full ml-10 mt-[199px] max-md:mt-10 animate-slide-in-left">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch">
           <div className="w-[59%] max-md:w-full max-md:ml-0">
             <article className="shadow-[0px_3px_19px_-1px_rgba(0,0,0,0.2)] relative grow overflow-hidden text-[13px] text-white font-normal pt-[17px] pb-[11px] px-[21px] rounded-[13px] border-[rgba(142,142,142,1)] border-solid border-2 max-md:max-w-full max-md:mt-7 max-md:px-5">
@@ -73,7 +73,7 @@ export const HeroSection: React.FC = () => {
                 <br />
                 <span className="text-xl text-white">2–6 PM</span>
               </div>
-              <button className="bg-black overflow-hidden text-[11px] text-white font-medium text-center mt-[38px] px-[21px] py-[17px] w-[240px] rounded-[13px] hover:bg-gray-800 transition-colors max-md:px-5">
+              <button className="bg-black overflow-hidden text-[11px] text-white font-medium text-center mt-[38px] px-[21px] py-[17px] w-[240px] rounded-[13px] hover:bg-gray-800 transition-transform transform hover:scale-105 max-md:px-5">
                 Book Now
               </button>
             </article>

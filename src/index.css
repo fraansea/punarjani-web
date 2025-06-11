@@ -115,3 +115,27 @@ body, * {
 .animate-marquee {
   animation: marquee 30s linear infinite;
 }
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.animate-fade-in {
+  animation: fade-in 1s ease-out;
+}
+
+@keyframes slide-in-left {
+  0% { transform: translateX(-100%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+.animate-slide-in-left {
+  animation: slide-in-left 0.7s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+@keyframes scroll-fade-in {
+  0% { opacity: 0; transform: translateY(40px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-scroll-fade-in {
+  animation: scroll-fade-in 1.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
